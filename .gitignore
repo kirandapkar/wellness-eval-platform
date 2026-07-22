@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+agent/kb/index/
+*.db
+.DS_Store
+assignment_kb.zip
+assignment_kb/wellness_docs_md.zip
+.claude/

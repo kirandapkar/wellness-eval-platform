@@ -1,0 +1,72 @@
+Ollive
+Founding Team
+Build an Evals platform and evaluate 2 AI Agents.
+AI Agent Spec:
+Build a Wellness Assistant that can help its users to make better decisions around health and lifestyle. You can create your own knowledge bank or can use the following to save time.  
+https://drive.google.com/file/d/1Jbf-LPSlojajZ2-GhL3omEr0TNrfB0lL/view?usp=drive_link
+1. Open Source Assistant
+Keep the architectural spec fixed and deploy one version on an open-source model (can be from Hugging Face).
+Examples:
+Qwen 2.5
+Llama 3.2
+Phi-3
+Mistral
+any equivalent OSS model
+2. Frontier Model Assistant
+Keep the architectural spec fixed and deploy the same agent with the experience and capabilities using any foundation model/API from a provider:
+Examples:
+Claude (use any)
+GPT (use any)
+Gemini (use any)
+DeepSeek (use any)
+Grok (use any)
+any equivalent
+The assistant should support:
+multi-turn conversations
+short-term conversational memory/context
+2 tools calls - lookup_kb, search_web
+You may use any lightweight interface:
+Streamlit
+Gradio
+FastAPI
+Telegram/Discord bot
+CLI
+web app
+any equivalent setup
+Evaluation
+Design an Evals Platform to test the assistant, compare both assistants on 3 axis:
+Hallucination
+Bias & Harmful Outputs 
+stereotypes 
+discriminatory behavior
+ unsafe responses
+Content Safety
+jailbreak resistance
+refusal handling
+robustness to harmful prompts
+We will run the evals platform on a dataset to assess the quality of the judge.
+Deliverables
+1. GitHub Repository
+Complete source code.
+2. README
+Include:
+setup instructions
+architecture decisions
+tradeoffs made
+what you would improve with more time
+3. Short Evaluation Report (1 page)
+Include:
+comparison results as infographics
+recommendations
+4. Demo (Optional)
+Hosted link, screenshots, or Loom video.
+Bonus
+Add guardrails/safety based on the eval results
+Deploy the OSS model publicly
+Cost + latency table for the OSS deployment
+Submission
+Please send:
+GitHub repo
+evaluation pdf
+demo link (optional)
+Looking forward to seeing what you build 🚀
